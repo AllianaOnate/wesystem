@@ -23,11 +23,6 @@ const HomePage = () => {
             description: `Explore different algorithms 
             such as sorting and searching algorithms.`,
         },
-        {
-            title: "Web Development",
-            description: `Get started with web development 
-            technologies like HTML, CSS, and JavaScript.`,
-        },
     ];
 
     return (
