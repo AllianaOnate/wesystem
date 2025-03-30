@@ -1,24 +1,20 @@
-// AboutPage.js
+import "../layout/AboutPageLayout.css"; 
 
 const AboutPage = () => {
     return (
-        <div>
-            <h2>About GeeksforGeeks</h2>
+        <div className="about-container">
+            <h2>About Griffindor</h2>
             <p>
-                GeeksforGeeks is a computer
-                science portal that offers
-                high-quality content for learning
-                and practicing various programming
-                concepts and technologies.
-            </p>
-            <p>
-                Our mission is to provide free
-                and accessible education to everyone,
-                empowering individuals to enhance their
-                skills and pursue careers in technology.
+            Gryffindor was one of the four Houses of 
+            Hogwarts School of Witchcraft and Wizardry 
+            and was founded by Godric Gryffindor. 
+            Gryffindor instructed the Sorting Hat to choose students 
+            possessing characteristics he most valued, such as courage, 
+            chivalry, nerve and determination, to be Sorted into his house.
             </p>
         </div>
     );
 };
 
 export default AboutPage;
+

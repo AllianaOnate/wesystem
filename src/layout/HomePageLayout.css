@@ -51,3 +51,11 @@
 .course p {
     margin-bottom: 0;
 }
+
+.course:hover {
+    transform: scale(1.5); 
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+    background-color: #e6e6e6; /* Slight color change on hover */
+}
+
