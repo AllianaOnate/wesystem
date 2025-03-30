@@ -14,25 +14,24 @@ const Course = ({ title, description }) => {
 const HomePage = () => {
     const courses = [
         {
-            title: "Data Structures",
-            description: `Learn about various data 
-            structures like arrays, linked lists, and trees.`,
+            title: "Lily Potter",
+            description: `Muggle-born who joined the original Order of the Phoenix in 1978; 
+            wife of James Potter and mother of Harry Potter. Murdered by Voldemort on the night 
+            of 31 October, 1981.`,
         },
         {
-            title: "Algorithms",
-            description: `Explore different algorithms 
-            such as sorting and searching algorithms.`,
+            title: "James Potter",
+            description: `James Potter, Fleamont and Euphemia's only son, was born late in the couple's lives on 27 March, 1960. 
+            By that time, his parents were both elderly (even by wizarding standards), but they pampered and cherished their child 
+            accordingly to the point where he became a proud yet arrogant boy. However, James was still considered a good person.`,
         },
     ];
 
     return (
         <div className="homepage-container">
             <h2 className="main-heading">
-                GeeksforGeeks
+                Harry Potter's Parents
             </h2>
-            <h3 className="sub-heading">
-                Courses:
-            </h3>
             <div className="course-list">
                 {courses.map((course, index) => (
                     <Course key={index}
